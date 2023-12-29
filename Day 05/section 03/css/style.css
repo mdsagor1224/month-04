@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.scetion-padding{
+    padding: 80px 0;
+}
+
+.section-bg {
+    background: #FFEDE9;
+}
+
+a.subtitle {
+    background: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.section-content h2 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+a.applestore {
+    display: inline-block;
+    background: #1F4C3F;
+    color: #fff;
+    display: flex;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.download-app {
+    display: flex;
+}
+
+.icon {
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.download-now h3 {
+    font-size: 18px;
+}
+
+.download-now {
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.icon {
+    position: relative;
+}
+
+.icon:after {
+    position: absolute;
+    content: "";
+    top: 7px;
+    right: -12px;
+    height: 67%;
+    border-right: 1px solid #ddd;
+}
+
+.download-app {
+    padding-top: 50px;
+}
+
+.applestore.ml-30 {
+    margin-left: 30px;
+}
+
+.sec-img {
+    position: relative;
+}
+
+.sec-img {
+    position: absolute;
+    right: 0;
+    bottom: -80px;
+
+}
+
+.sec-img {
+    position: relative;
+}
+

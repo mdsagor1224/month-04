@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.pt-50{
+    padding-top: 50px;
+}
+.section-padding{
+    padding: 80px 0;
+}
+
+
+.section-title h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.single-payment-section {
+    border: 1px solid #ddd;
+    padding: 70px 60px;
+    border-radius: 5px;
+}
+
+.title h2 {
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.payment-title h3 {
+    font-size: 18px;
+}
+
+.payment-status a {
+    color: #ED290F;
+    font-size: 25px;
+}
+
+.payment-details {
+    display: flex;
+}
+
+.payment-title {
+    padding-left: 30px;
+}
+
+.payment-details {
+    padding-bottom:25px;
+}
+.payment-status .check{
+    color: #3B77F2;
+}
+
+a.booknow {
+    background: #0654F0;
+    color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.payment-bg {
+    position: relative;
+}
+
+.payment-bg:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #E9F6FD;
+    z-index: -1;
+    opacity: .5;
+}
